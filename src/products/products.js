@@ -14,7 +14,7 @@ const jsonData = [
         "sizes": [,"XXS","XS", "S", "M", "L", "XL"],
         "info": "High quality T-Shirt with front and back-print. All earnings directly support DrinkSoda! 100% Organic Cotton, 200gsm, MADE IN BANGLADESH, HANDPRINTED IN VIENNA",
         "image": require("../assets/drinksoda_tshirt-front.png") // Replace with the actual image URL or filename
-    },
+    }
     /*{
         "id": 2,
         "name": "Sweater",
