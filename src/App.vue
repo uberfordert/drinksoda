@@ -4,7 +4,6 @@
             <!-- Main content area -->
             <div class="flex-1">
                 <HeaderBar/>
-                <SizingGuide/>
                 <div class="grid grid-cols-5 lg:grid-cols-4 gap-y-8 p-2">
                     <ShoppingCart/>
                     <HoodieList/>
