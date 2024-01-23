@@ -27,7 +27,6 @@ export default {
     components: {SideBarGif, ShoppingCart: ProductList, HoodieList, BottomBar},
 }
 </script>
-
 <style scoped>
 
 /* Add any additional styles here */
