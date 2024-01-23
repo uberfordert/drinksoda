@@ -6,24 +6,24 @@
             <TransitionGroup>
                 <div v-for="cartItem in productsStore().cart"
                      :key="cartItem.id"
-                     class="animated-cart-item grid grid-cols-5 text-center text-sm lg:p-3 m-3 border border-white rounded-2xl hover:bg-fuchsia-500 hover:text-black">
+                     class="animated-cart-item grid grid-cols-5 text-center text-sm lg:p-3 m-3 border border-white rounded-2xl hover:bg-purple-500 hover:text-black">
                     <div>
                         <div class="text-xs lg:text-xs">{{ cartItem.quantity }}</div>
-                        <div class="text-xs text-green-700">QTY</div>
+                        <div class="text-xs text-white-700">QTY</div>
                     </div>
                     <div class="">
                         <div class="text-xs lg:text-xs flex items-center justify-center flex-wrap">
                             {{ cartItem.size }}
                         </div>
-                        <div class="text-xs text-green-700">SIZE</div>
+                        <div class="text-xs text-white-700">SIZE</div>
                     </div>
                     <div>
                         <div class="text-xs lg:text-xs">{{ cartItem.name }}</div>
-                        <div class="text-xs align-baseline text-green-700">ITEM</div>
+                        <div class="text-xs align-baseline text-white-700">ITEM</div>
                     </div>
                     <div>
                         <div class="text-xs lg:text-xs ">{{ cartItem.price_euro * cartItem.quantity }}</div>
-                        <div class="text-xs text-green-700">€</div>
+                        <div class="text-xs text-white-700">€</div>
                     </div>
                     <div class="text-red-700 text-base lg:flex lg:items-center lg:justify-center"
                          @click="decrementAmountCount(cartItem)">-
