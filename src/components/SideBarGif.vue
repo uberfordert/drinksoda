@@ -1,5 +1,5 @@
 <template>
-  <img src="micki-ficki.gif" alt="Drink Soda Strapped" width="200px" height="auto" />
+  <img src="micki-ficki.gif" alt="Drink Soda Strapped" width="600px" height="auto" />
 
 </template>
 
