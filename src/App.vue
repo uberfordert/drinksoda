@@ -26,7 +26,7 @@ import SideBarGif from "@/components/SideBarGif.vue";
 
 export default {
     name: 'App',
-    components: {SizingGuide, SideBarGif, ShoppingCart: ProductList, HoodieList, BottomBar, HeaderBar},
+    components: {SideBarGif, ShoppingCart: ProductList, HoodieList, BottomBar, HeaderBar},
 }
 </script>
 
