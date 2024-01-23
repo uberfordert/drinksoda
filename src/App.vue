@@ -24,7 +24,6 @@ import BottomBar from "@/components/BottomBar.vue";
 import HoodieList from "@/components/HoodieView.vue";
 import ProductList from "@/components/ProductList.vue";
 import SideBarGif from "@/components/SideBarGif.vue";
-import SizingGuide from "@/components/SizingGuide.vue";
 
 export default {
     name: 'App',
