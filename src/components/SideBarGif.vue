@@ -1,8 +1,6 @@
 <template>
-  <img src="src/assets/drinksoda-tshirt.gif" alt="Drink Soda Strapped" />
+  <img src="drinksoda-tshirt.gif" alt="Drink Soda Strapped" />
 </template>
 
-<script setup>
-  
-</script>
+<script setup></script>
 
