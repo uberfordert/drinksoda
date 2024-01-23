@@ -7,7 +7,7 @@
             @swiper="onSwiper"
         >
             <SwiperSlide v-for="product in productsStore().products" :key="product.id">
-                <img alt="no image" class="mx-auto rounded-2xl" src="https://placehold.co/800x600"/>
+                <img alt="no image" class="mx-auto rounded-2xl" src="../assets/drinksoda_tshirt-front.png"/>
                 <div class="grid grid-cols-3 gap-5 text-center lg:m-3 m-2">
                     <div class="col-start-1">{{ product.price_euro }}€</div>
                     <div class="col-start-2">{{ product.name }}</div>
