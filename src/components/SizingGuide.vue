@@ -2,7 +2,7 @@
     <Transition>
         <div
             v-if="popUpStore().showSizingGuide"
-            class="mx-6 my-6 bg-amber-500 border border-red-400 text-red-700 px-4 py-3 rounded absolute"
+            class="mx-6 my-6 bg-fuchsia-500 border border-red-400 text-red-700 px-4 py-3 rounded absolute"
             role="alert"
         >
             <div class="grid grid-cols-12 grid-rows-3">
