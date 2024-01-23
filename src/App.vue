@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="font-BrunoAce bg-zinc-950 text-white">
+    <div id="app" class="font-BrunoAce bg-black text-white">
         <div class="flex flex-col min-h-screen">
             <!-- Main content area -->
             <div class="flex-1">
