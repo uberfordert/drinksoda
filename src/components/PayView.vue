@@ -25,7 +25,6 @@ import { StripeCheckout } from "@vue-stripe/vue-stripe";
 import { productsStore } from "@/store/products";
 
 const publishableKey = process.env.VUE_APP_STRIPE_PUBLISHABLE_KEY;
-console.log("key", publishableKey);
 const loading = ref(false);
 const checkoutRef = ref(null);
 
