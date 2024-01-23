@@ -13,7 +13,7 @@
                     <div class="col-start-2">{{ product.name }}</div>
                     <div class="grid grid-cols-6 col-start-3 lg:divide-x gap" role="group">
                         <button v-for="size in product.sizes" :key="size"
-                                class="col-span-1 hover:bg-purple-500 hover:text-black focus:bg-purple-500 focus:text-black"
+                                class="col-span-1 hover:bg-fuchsia-500 hover:text-black focus:bg-fuchsia-500 focus:text-black"
                                 @click="changeSelectedSize(size)">
                             {{ size }}
                         </button>
@@ -22,10 +22,10 @@
             </SwiperSlide>
         </Swiper>
         <div class="grid grid-cols-5 text-center text-4xl lg:m-5">
-            <div id="previousProduct" class="col-start-1 hover:bg-purple-500 hover:text-black" @click="previousProduct">
+            <div id="previousProduct" class="col-start-1 hover:bg-fuchsia-500 hover:text-black" @click="previousProduct">
                 &lt;
             </div>
-            <button class="hover:bg-purple-500 hover:text-black col-start-3 flex items-center justify-center
+            <button class="hover:bg-fuchsia-500 hover:text-black col-start-3 flex items-center justify-center
         text-center text-xs border border-white rounded-md p-1" @click="addToCart()">
                 CHOOSE
             </button>

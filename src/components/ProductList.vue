@@ -6,7 +6,7 @@
             <TransitionGroup>
                 <div v-for="cartItem in productsStore().cart"
                      :key="cartItem.id"
-                     class="animated-cart-item grid grid-cols-5 text-center text-sm lg:p-3 m-3 border border-white rounded-2xl hover:bg-purple-500 hover:text-black">
+                     class="animated-cart-item grid grid-cols-5 text-center text-sm lg:p-3 m-3 border border-white rounded-2xl hover:bg-fuchsia-500 hover:text-black">
                     <div>
                         <div class="text-xs lg:text-xs">{{ cartItem.quantity }}</div>
                         <div class="text-xs text-white-700">QTY</div>
