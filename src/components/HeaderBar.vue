@@ -1,10 +1,12 @@
 <template>
-    <h1 class="col-span-5 col-start-1 lg:text-6xl text-center text-4xl bold lg:m-5 m-6 ">DRINK SODA!!!</h1>
+  <img
+    alt="no image"
+    class="mx-auto rounded-2xl lg:h-32 md:h-16 h-16 m-4"
+    src="../assets/drinksoda_header.png"
+  />
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
+<style scoped></style>
