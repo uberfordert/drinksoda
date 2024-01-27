@@ -11,7 +11,7 @@
       />
     </div>
     <button
-      class="border border-white rounded-xl p-1.5 text-xs hover:bg-white hover:text-white-700"
+      class="border border-white rounded-xl p-1.5 text-xs hover:bg-fuchsia-500 hover:text-black"
       @click="submit"
     >
       PAY NOW
