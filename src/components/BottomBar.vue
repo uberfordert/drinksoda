@@ -6,12 +6,13 @@
       <div
         class="col-start-1 flex items-center justify-center hover:bg-fuchsia-500 hover:text-black rounded-2xl lg:text-3xl text-sm"
       >
-        LOOK BOOK
+        <a href="https://look-book.uberfordert.com">LOOK BOOK</a>
       </div>
       <div
         class="col-start-3 lg:col-start-5 col-span-1 flex items-center justify-center hover:bg-fuchsia-500 hover:text-black rounded-2xl lg:text-3xl text-sm"
       >
-        SIZING GUIDE
+      <a href="https://size-guide.uberfordert.com">SIZING GUIDE</a>
+
       </div>
     </div>
   </footer>
