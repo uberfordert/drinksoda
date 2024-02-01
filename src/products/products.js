@@ -2,7 +2,7 @@ const jsonData = [
     {
         "id": 1,
         "name": "Soda Tee",
-        "price_euro": 33.20,
+        "price_euro": 28,
         "price_ids": {
             "XXS": "price_1OQY3uKpJM1RytB8VJK9o0nL",
             "XS": "price_1OQfzZKpJM1RytB8GHBruZNb",
@@ -14,6 +14,17 @@ const jsonData = [
         "sizes": ["XXS","XS", "S", "M", "L", "XL"],
         "info": "High quality T-Shirt with front and back-print. All earnings directly support DrinkSoda! 100% Organic Cotton, 200gsm, MADE IN BANGLADESH, HANDPRINTED IN VIENNA",
         "image": require("../assets/drinksoda_tshirt-front.png") // Replace with the actual image URL or filename
+    },
+    {
+        "id": 2,
+        "name": "Prod 2",
+        "price_euro": 24,
+        "price_ids": {
+            "ONE SIZE": "price_1OQY3uKpJM1RytB8VJK9o0nL"
+        },
+        "sizes": ["ONE SIZE"],
+        "info": "High quality thing. All earnings directly support DrinkSoda! IN VIENNA",
+        "image": require("../assets/drinksoda_tshirt_back.png") // Replace with the actual image URL or filename
     }
     /*{
         "id": 2,
