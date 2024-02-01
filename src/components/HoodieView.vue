@@ -57,7 +57,7 @@
         class="col-span-5 border rounded-xl lg:m-8 m-4 lg:p-4 p-2 lg:text-xl text-xs"
       >
         <h1 class="lg:m-4 text-md mb-1">34.20€ - Drink Soda T-Shirt</h1>
-        <p class="">High Quality T-Shirt with back and front print</p>
+        <p class="text-sm">High Quality T-Shirt with back and front print</p>
         <p class="">Printed in Vienna</p>
       </div>
     </div>
