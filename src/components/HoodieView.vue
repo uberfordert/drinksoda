@@ -59,7 +59,7 @@
         <h1 class="lg:m-1 text-md mb-1">34.20€ - Drink Soda T-Shirt</h1>
         <p class="text-sm">High Quality T-Shirt with back and front print</p>
         <p class="text-sm">All earnings directly support DrinkSoda! 100% Organic Cotton, 200gsm</p>
-        <p class="text-s">Printed in Vienna - Made in Bangladesh</p>
+        <p class="text-xs">Printed in Vienna - Made in Bangladesh</p>
       </div>
     </div>
     <div class="grid grid-cols-5"></div>
