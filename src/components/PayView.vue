@@ -6,6 +6,7 @@
         :line-items="productsStore().getLineItems()"
         :pk="publishableKey"
         billing-address-collection="required"
+        couponCode="BEN10"
         mode="payment"
         @loading="(v) => (loading = v)"
       />
