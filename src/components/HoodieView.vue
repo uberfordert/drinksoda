@@ -21,7 +21,7 @@
             <button
               v-for="size in product.sizes"
               :key="size"
-              class="lg:mx-5 mx-3 hover:text-fuchsia-500 focus:text-fuchsia-500"
+              class="lg:mx-5 mx-3 hover:text-fuchsia-500 hover:text-black focus:text-fuchsia-500 focus:text-black"
               @click="changeSelectedSize(size)"
             >
               {{ size }}
@@ -56,10 +56,9 @@
       <div
         class="col-span-5 border rounded-xl lg:m-8 m-4 lg:p-4 p-2 lg:text-xl text-xs"
       >
-        <h1 class="lg:m-8 text-md mb-2">28€ - Drink Soda T-Shirt</h1>
+        <h1 class="lg:m-8 text-md mb-2">34.20€ - Drink Soda T-Shirt</h1>
         <p class="">High Quality T-Shirt with back and front print</p>
         <p class="">Printed in Vienna</p>
-        <p class="">Made in Bangladesh</p>
       </div>
     </div>
     <div class="grid grid-cols-5"></div>
