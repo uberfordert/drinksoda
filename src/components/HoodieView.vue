@@ -21,7 +21,7 @@
             <button
               v-for="size in product.sizes"
               :key="size"
-              class="lg:mx-5 mx-3 hover:text-fuchsia-500 hover:text-black focus:text-fuchsia-500 focus:text-black"
+              class="lg:mx-5 mx-3 hover:text-fuchsia-500 focus:text-fuchsia-500"
               @click="changeSelectedSize(size)"
             >
               {{ size }}
