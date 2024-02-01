@@ -6,7 +6,6 @@
         :line-items="productsStore().getLineItems()"
         :pk="publishableKey"
         billing-address-collection="required"
-        couponCode="BEN10"
         mode="payment"
         @loading="(v) => (loading = v)"
       />
@@ -35,7 +34,7 @@ const checkoutRef = ref(null);
 const submit = async () => {
   // starts the rendering of stripe
   productsStore().startCheckout = true;
-  console.log("lineItems", productsStore().getLineItems());
+  //console.log("lineItems", productsStore().getLineItems());
 
   // Wait for the next DOM update cycle
   await nextTick();
