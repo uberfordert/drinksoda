@@ -11,7 +11,7 @@
         :key="product.id"
       >
         <img
-          alt="no image"
+          alt="drinksoda t-shirt"
           class="mx-auto rounded-2xl"
           src="../assets/drinksoda_tshirt-front.png"
         />
