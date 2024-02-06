@@ -12,7 +12,7 @@
     <a href="https://www.instagram.com/drinksoda__/" target="_blank" rel="noopener noreferrer" class="block lg:hidden">
       <img
         class="lg:px-5 md:px-5 md:pt-10 lg:pt-10 w-full lg:col-start-1 col-start-3"
-        src="../assets/ds-t.gif"
+        src="../assets/drinksoda-shirt.gif"
         alt="Drink Soda Strapped (Mobile)"
       >
     </a>
