@@ -57,8 +57,8 @@
         class="col-span-5 border rounded-xl lg:m-8 m-4 lg:p-4 p-2 lg:text-xl text-xs"
       >
         <h1 class="lg:m-2 text-lg mb-1">Drink Soda T-Shirt</h1>
-        <p class="text-sm">High Quality w back & front print.</p>
-        <p class="text-xs">34.20€ - free shipping EU</p>
+        <p class="text-sm"></p>
+        <p class="text-xs">All earnings support <a href="https://www.instagram.com/drinksoda__" style="color: inherit;">@drinksoda__</a></p>
       </div>
     </div>
     <div class="grid grid-cols-5"></div>
