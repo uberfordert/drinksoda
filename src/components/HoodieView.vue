@@ -21,7 +21,7 @@
             <button
               v-for="size in product.sizes"
               :key="size"
-              class="lg:mx-5 mx-3 hover:text-fuchsia-500 hover:text-black focus:text-fuchsia-500 focus:text-black"
+              class="lg:mx-5 mx-3 hover:text-fuchsia-500 focus:text-fuchsia-500"
               @click="changeSelectedSize(size)"
             >
               {{ size }}
@@ -58,7 +58,12 @@
       >
         <h1 class="lg:m-2 text-lg mb-1">Drink Soda T-Shirt</h1>
         <p class="text-sm"></p>
-        <p class="text-xs">All earnings support <a href="https://www.instagram.com/drinksoda__" style="color: inherit;">@drinksoda__</a></p>
+        <p class="text-xs">
+          All earnings support
+          <a href="https://www.instagram.com/drinksoda__" style="color: inherit"
+            >@drinksoda__</a
+          >
+        </p>
       </div>
     </div>
     <div class="grid grid-cols-5"></div>
