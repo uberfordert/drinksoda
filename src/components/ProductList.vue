@@ -29,7 +29,9 @@
           </div>
           <div>
             <div class="text-xs lg:text-xs">
-              {{ cartItem.price_euro * cartItem.quantity }}
+              {{
+                parseFloat(cartItem.price_euro * cartItem.quantity).toFixed(2)
+              }}
             </div>
             <div class="text-xs text-white-700">€</div>
           </div>
