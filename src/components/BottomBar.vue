@@ -9,6 +9,18 @@
         <a href="https://www.instagram.com/p/C2z5FwctUSH/?igsh=M2c3dG81OHlvY2h1">LOOK BOOK</a>
       </div>
       <div
+        class="col-span-5 border rounded-xl lg:m-8 m-4 lg:p-4 p-2 lg:text-xl text-xs"
+      >
+        <h1 class="lg:m-2 text-lg mb-1">Drink Soda T-Shirt</h1>
+        <p class="text-sm"></p>
+        <p class="text-xs">
+          All earnings support
+          <a href="https://www.instagram.com/drinksoda__" style="color: inherit"
+            >@drinksoda__</a
+          >
+        </p>
+      </div>
+      <div
         class="col-start-3 lg:col-start-5 col-span-1 flex items-center justify-center hover:bg-fuchsia-500 hover:text-black rounded-2xl lg:text-3xl text-sm"
       >
       <a href="https://size-guide.uberfordert.com">SIZING GUIDE</a>
