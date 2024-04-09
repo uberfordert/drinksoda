@@ -1,4 +1,7 @@
 <template>
+  <img
+
+  />
 </template>
 
 <script setup></script>
