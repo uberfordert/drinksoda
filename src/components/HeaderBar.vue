@@ -1,7 +1,7 @@
 <template>
   <img
     alt="no image"
-    class="mx-auto lg:h-48 md:h-12 h-12 m-3"
+    class="mx-auto lg:h-24 md:h-12 h-12 m-3"
     src="../assets/drinksoda_header.png"
   />
 </template>

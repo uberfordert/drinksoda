@@ -18,7 +18,7 @@
   <img
     alt="Desktop View"
     class="mx-auto rounded-2xl hidden lg:block" 
-    src="../assets/ds-t.gif"
+    src="../assets/drinksoda_tshirt-front.png"
   />
   
   <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
