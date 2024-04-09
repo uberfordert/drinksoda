@@ -1,8 +1,9 @@
 <template>
   <div class="col-span-5 lg:col-span-2 lg:col-start-2 col-start-1">
+    <!-- Desktop Swiper -->
     <Swiper
       ref="swiperRef"
-      class=""
+      class="hidden lg:block"
       @slideChange="onSlideChange"
       @swiper="onSwiper"
     >
@@ -13,21 +14,29 @@
         <img
           alt="drinksoda-shirt"
           class="mx-auto rounded-2xl"
-          src="../assets/mick-ds.gif"
+          src="../assets/mick-ds.gif" 
         />
-        <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
-          <!-- price size container-->
-          <div class="col-span-3 text-center lg:text-4xl text-xl">
-            <button
-              v-for="size in product.sizes"
-              :key="size"
-              class="lg:mx-5 mx-3 hover:text-fuchsia-500 focus:text-fuchsia-500"
-              @click="changeSelectedSize(size)"
-            >
-              {{ size }}
-            </button>
-          </div>
-        </div>
+        <!-- Other desktop specific content -->
+      </SwiperSlide>
+    </Swiper>
+
+    <!-- Mobile Swiper -->
+    <Swiper
+      ref="swiperRefMobile"
+      class="block lg:hidden"
+      @slideChange="onSlideChangeMobile"
+      @swiper="onSwiperMobile"
+    >
+      <SwiperSlide
+        v-for="product in productsStore().products"
+        :key="`mobile-${product.id}`"
+      >
+        <img
+          alt="drinksoda-shirt"
+          class="mx-auto rounded-2xl"
+          src="../assets/stats.png" 
+        />
+        <!-- Other mobile specific content -->
       </SwiperSlide>
     </Swiper>
     <div class="grid grid-cols-5 text-center text-4xl lg:m-5">
