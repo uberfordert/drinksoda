@@ -16,7 +16,7 @@
   
   <div
   class="mx-auto rounded-2xl hidden lg:block bg-cover"
-  :style="`background-image: url('../assets/drinksoda_tshirt_back.png');`"
+  :style="`background-image: url('drinksoda_tshirt_back.png');`"
 >
   <img
     alt="Desktop View"
