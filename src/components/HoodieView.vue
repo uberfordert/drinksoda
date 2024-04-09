@@ -14,12 +14,16 @@
     src="../assets/mick-ds.gif"
   />
   
-  <!-- Desktop Image -->
+  <div
+  class="mx-auto rounded-2xl hidden lg:block bg-cover"
+  :style="`background-image: url('../assets/drinksoda_tshirt_back.png');`"
+>
   <img
     alt="Desktop View"
-    class="mx-auto rounded-2xl hidden lg:block" 
+    class="w-full h-full transition-opacity duration-300 ease-in-out hover:opacity-0"
     src="../assets/drinksoda_tshirt-front.png"
   />
+</div>
   
   <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
     <!-- price size container-->
