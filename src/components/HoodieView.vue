@@ -94,6 +94,8 @@ import { computed, onMounted, ref } from "vue";
 import { productsStore } from "@/store/products";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import * as uuid from "uuid";
 
 const selectedItemIndex = ref(null);
