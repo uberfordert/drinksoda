@@ -13,7 +13,7 @@
         <img
           alt="drinksoda-shirt"
           class="mx-auto rounded-2xl"
-          src="../assets/drinksoda_tshirt-front.png"
+          src="../assets/micki-ficki.gif"
         />
         <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
           <!-- price size container-->
