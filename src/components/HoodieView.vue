@@ -1,43 +1,41 @@
 <template>
   <div class="col-span-5 lg:col-span-2 lg:col-start-2 col-start-1">
-    <!-- Desktop Swiper -->
     <Swiper
       ref="swiperRef"
-      class="hidden lg:block"
+      class=""
       @slideChange="onSlideChange"
       @swiper="onSwiper"
     >
-      <SwiperSlide
-        v-for="product in productsStore().products"
-        :key="product.id"
+    <SwiperSlide v-for="product in productsStore().products" :key="product.id">
+  <!-- Mobile Image -->
+  <img
+    alt="Mobile View"
+    class="mx-auto rounded-2xl block lg:hidden"
+    src="../assets/mick-ds.gif"
+  />
+  
+  <!-- Desktop Image -->
+  <img
+    alt="Desktop View"
+    class="mx-auto rounded-2xl hidden lg:block" 
+    src="../assets/ds-t.gif"
+  />
+  
+  <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
+    <!-- price size container-->
+    <div class="col-span-3 text-center lg:text-4xl text-xl">
+      <button
+        v-for="size in product.sizes"
+        :key="size"
+        class="lg:mx-5 mx-3 hover:text-fuchsia-500 focus:text-fuchsia-500"
+        @click="changeSelectedSize(size)"
       >
-        <img
-          alt="drinksoda-shirt"
-          class="mx-auto rounded-2xl"
-          src="../assets/mick-ds.gif" 
-        />
-        <!-- Other desktop specific content -->
-      </SwiperSlide>
-    </Swiper>
+        {{ size }}
+      </button>
+    </div>
+  </div>
+</SwiperSlide>
 
-    <!-- Mobile Swiper -->
-    <Swiper
-      ref="swiperRefMobile"
-      class="block lg:hidden"
-      @slideChange="onSlideChangeMobile"
-      @swiper="onSwiperMobile"
-    >
-      <SwiperSlide
-        v-for="product in productsStore().products"
-        :key="`mobile-${product.id}`"
-      >
-        <img
-          alt="drinksoda-shirt"
-          class="mx-auto rounded-2xl"
-          src="../assets/stats.png" 
-        />
-        <!-- Other mobile specific content -->
-      </SwiperSlide>
     </Swiper>
     <div class="grid grid-cols-5 text-center text-4xl lg:m-5">
       <div
