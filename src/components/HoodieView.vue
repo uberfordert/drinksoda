@@ -7,33 +7,22 @@
       @swiper="onSwiper"
     >
     <SwiperSlide v-for="product in productsStore().products" :key="product.id">
-  <!-- Mobile Image (Unchanged) -->
+  <!-- Mobile Image -->
   <img
     alt="Mobile View"
     class="mx-auto rounded-2xl block lg:hidden"
     src="../assets/mick-ds.gif"
   />
   
-  <!-- Hover Image for Desktop (Initially visible) -->
+  <!-- Desktop Image -->
   <img
-    v-show="!product.isHovering"
-    @mouseover="product.isHovering = true"
-    @mouseleave="product.isHovering = false"
-    alt="Hover View"
-    class="mx-auto rounded-2xl hidden lg:block"
-    src="../assets/drinksoda_tshirt_black.png"
-  />
-
-  <!-- Desktop Image (Visible on hover) -->
-  <img
-    v-show="product.isHovering"
     alt="Desktop View"
     class="mx-auto rounded-2xl hidden lg:block" 
     src="../assets/drinksoda_tshirt-front.png"
   />
   
   <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
-    <!-- Price size container-->
+    <!-- price size container-->
     <div class="col-span-3 text-center lg:text-4xl text-xl">
       <button
         v-for="size in product.sizes"
@@ -46,7 +35,6 @@
     </div>
   </div>
 </SwiperSlide>
-
 
     </Swiper>
     <div class="grid grid-cols-5 text-center text-4xl lg:m-5">
@@ -94,8 +82,6 @@ import { computed, onMounted, ref } from "vue";
 import { productsStore } from "@/store/products";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import * as uuid from "uuid";
 
 const selectedItemIndex = ref(null);
