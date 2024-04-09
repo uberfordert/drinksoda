@@ -7,26 +7,33 @@
       @swiper="onSwiper"
     >
     <SwiperSlide v-for="product in productsStore().products" :key="product.id">
-  <!-- Mobile Image -->
+  <!-- Mobile Image (Unchanged) -->
   <img
     alt="Mobile View"
     class="mx-auto rounded-2xl block lg:hidden"
     src="../assets/mick-ds.gif"
   />
   
-  <div
-  class="mx-auto rounded-2xl hidden lg:block bg-cover"
-  :style="`background-image: url('drinksoda_tshirt_back.png');`"
->
+  <!-- Hover Image for Desktop (Initially visible) -->
   <img
+    v-show="!product.isHovering"
+    @mouseover="product.isHovering = true"
+    @mouseleave="product.isHovering = false"
+    alt="Hover View"
+    class="mx-auto rounded-2xl hidden lg:block"
+    src="../assets/drinksoda_tshirt_black.png"
+  />
+
+  <!-- Desktop Image (Visible on hover) -->
+  <img
+    v-show="product.isHovering"
     alt="Desktop View"
-    class="w-full h-full transition-opacity duration-300 ease-in-out hover:opacity-0"
+    class="mx-auto rounded-2xl hidden lg:block" 
     src="../assets/drinksoda_tshirt-front.png"
   />
-</div>
   
   <div class="grid grid-cols-3 gap-5 lg:m-3 m-2">
-    <!-- price size container-->
+    <!-- Price size container-->
     <div class="col-span-3 text-center lg:text-4xl text-xl">
       <button
         v-for="size in product.sizes"
@@ -39,6 +46,7 @@
     </div>
   </div>
 </SwiperSlide>
+
 
     </Swiper>
     <div class="grid grid-cols-5 text-center text-4xl lg:m-5">
